@@ -1,0 +1,63 @@
+[ 2024-05-28 10:30:00,667 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2024-05-28 10:30:00,673 ] 224 werkzeug - INFO -  * Debugger PIN: 989-149-963
+[ 2024-05-28 10:31:17,977 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:17] "GET / HTTP/1.1" 200 -
+[ 2024-05-28 10:31:18,028 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-05-28 10:31:23,908 ] 90 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:31:23,909 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-05-28 10:31:25,856 ] 67 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-05-28 10:31:25,905 ] 96 root - INFO - Got the data from mongodb
+[ 2024-05-28 10:31:25,905 ] 99 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:31:25,905 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-05-28 10:31:26,086 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-05-28 10:31:26,087 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-05-28 10:31:26,088 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-05-28 10:31:26,088 ] 156 root - INFO - Extracting model config file path
+[ 2024-05-28 10:31:26,088 ] 163 root - INFO - Extracting model config file path
+[ 2024-05-28 10:31:27,558 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:27] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-05-28 10:31:27,588 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:27] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-05-28 10:31:27,919 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:27] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-05-28 10:31:28,293 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:28] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-05-28 10:31:28,543 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:28] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:31:42,666 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:31:42] "GET / HTTP/1.1" 200 -
+[ 2024-05-28 10:31:59,407 ] 90 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:31:59,407 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-05-28 10:32:01,211 ] 67 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-05-28 10:32:01,257 ] 96 root - INFO - Got the data from mongodb
+[ 2024-05-28 10:32:01,257 ] 99 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:32:01,257 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-05-28 10:32:01,497 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-05-28 10:32:01,499 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-05-28 10:32:01,499 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-05-28 10:32:01,500 ] 156 root - INFO - Extracting model config file path
+[ 2024-05-28 10:32:01,500 ] 163 root - INFO - Extracting model config file path
+[ 2024-05-28 10:32:03,333 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:32:03] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-05-28 10:32:03,361 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:32:03] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:32:03,677 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:32:03] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:32:04,020 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:32:04] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:33:40,675 ] 90 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:33:40,675 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-05-28 10:33:42,530 ] 67 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-05-28 10:33:42,577 ] 96 root - INFO - Got the data from mongodb
+[ 2024-05-28 10:33:42,578 ] 99 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-05-28 10:33:42,578 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-05-28 10:33:42,818 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-05-28 10:33:42,819 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-05-28 10:33:42,819 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-05-28 10:33:42,819 ] 156 root - INFO - Extracting model config file path
+[ 2024-05-28 10:33:42,820 ] 163 root - INFO - Extracting model config file path
+[ 2024-05-28 10:34:20,418 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2024-05-28 10:34:20,419 ] 202 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-05-28 10:34:20,419 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-05-28 10:34:20,422 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-05-28 10:34:20,423 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:34:20] "GET /train HTTP/1.1" 200 -
+[ 2024-05-28 10:37:52,059 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:37:52] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[ 2024-05-28 10:37:52,087 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:37:52] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-05-28 10:37:52,257 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:37:52] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-05-28 10:37:52,602 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:37:52] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-05-28 10:37:52,853 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:37:52] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:40:07,644 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:40:07] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[ 2024-05-28 10:40:07,668 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:40:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:40:07,891 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:40:07] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:40:08,235 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:40:08] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:40:08,498 ] 224 werkzeug - INFO - 127.0.0.1 - - [28/May/2024 10:40:08] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-05-28 10:44:06,935 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\abida\\OneDrive\\Desktop\\Sensor Project\\src\\exception.py', reloading
